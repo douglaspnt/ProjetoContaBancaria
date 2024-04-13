@@ -14,12 +14,10 @@ public class Menu {
 
 		Scanner leia = new Scanner(System.in);
 
-		// Variáveis de entrada de dados
 		int opcao, numero, agencia, tipo, aniversario, numeroDestino;
 		String titular;
 		float saldo, limite, valor;
 
-		// Instância da Classe ContaController
 		ContaController contas = new ContaController();
 
 		System.out.println("\nCriar Contas\n");
